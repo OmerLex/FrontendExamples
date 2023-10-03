@@ -1,0 +1,54 @@
+/*The animation Code*/
+@keyframes example{
+    0%{
+        background-color: green;
+        left: 0%;
+    }
+    50%{
+        background-color: yellow;
+        left: 100%;
+        border-radius: 25%;
+    }
+    100%{
+        background-color: red;
+        left: 0%;
+        border-radius: 25%;
+    } 
+}
+
+
+
+
+div{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    /* border-style: solid; */
+    background-color: green;
+    animation-name: example;   
+    animation-iteration-count: infinite;    
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.box1{
+    animation-delay: 1s;
+    animation-duration: 5s;
+}
+.box2{
+    animation-delay: 1.2s;
+    animation-duration: 5s;
+}
+.box3{
+    animation-delay: 1.4s;
+    animation-duration: 5s;
+}
+.box4{
+    animation-delay: 1.6s;
+    animation-duration: 5s;
+}
+.box5{
+    animation-delay: 1.8s;
+    animation-duration: 5s;
+}
