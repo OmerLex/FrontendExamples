@@ -52,3 +52,14 @@ div{
     animation-delay: 1.8s;
     animation-duration: 5s;
 }
+
+body {
+    background-color: pink;
+  }
+
+@media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    <h1>Find Sum</h1>
+    <input type="button" value="GetNumber" onclick="getNumber()"/>
+    <input type="button" value="Sum" onclick="findSum(num1, num2)"/>
+    <br>
+    <br>
+
+   
+    
+    <!-- <script src="javascript.js"></script> -->
+</body>
+</html>
+<script>
+    var num1, num2;
+    function getNumber(){
+        num1 = parseInt(window.prompt("Enter first number: "));
+        num2 = parseInt(window.prompt("Enter second number: "));
+        //window.alert(num1 + num2)
+        findSum(num1, num2);
+    }
+
+    function findSum(num1, num2){
+        var result = num1 + num2;
+        //window.alert("Result" + num1 + num2);
+        window.alert("Result: " + result);
+    }
+
+    
+
+</script>
