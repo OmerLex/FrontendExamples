@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>    
+    <title>CallBack</title>
+</head>
+<body>
+    <button class="btn">Click Me</button>
+    
+</body>
+</html>
+<script>
+    const btn = document.querySelector('.btn');    
+
+    btn.addEventListener('click', () => {
+        let name = 'John Doe';
+        console.log(name.toUpperCase());
+    })
+</script>
